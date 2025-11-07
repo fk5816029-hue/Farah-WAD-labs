@@ -1,0 +1,73 @@
+body
+{
+    background-color:pink;
+    font-family: Arial, 'Times new roman';
+    margin: 0%;
+    padding: 0%;
+}
+h1
+{
+    color: white;
+    margin-left:40px;
+}
+
+/*=== Farah styling ===*/
+.Farah{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: green;
+    padding: 10px;
+}
+
+.Farah a{
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+    background: green;
+    font-size: 18px;
+    padding: 2px;
+}
+
+.Farah a:hover {
+  text-decoration: underline;
+  color:black;
+   
+}
+
+/* === Slider Styling === */
+.slider {
+  width: 800px;
+  height: 300px;
+  overflow: hidden;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.slides {
+  display: flex;
+  width: 500%; 
+  height: 100%;
+  animation: slide 20s infinite linear;
+}
+
+.slides img {
+   width: 50%;
+}
+
+@keyframes slide {
+  0%   { transform: translateX(0); }
+  33%  { transform: translateX(-100%); }
+  66%  { transform: translateX(-200%); }
+  100% { transform: translateX(0); }
+}
+
+.content {
+  width: 30%;
+  margin: 30px auto;
+  background: #fff5f5;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
